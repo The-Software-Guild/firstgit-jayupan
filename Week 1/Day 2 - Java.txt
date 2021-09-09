@@ -1,0 +1,47 @@
+Stack and Heap (Java Memory)
+	Stack is building upwards (FILO)
+	Heap is a looser structure
+	When the Stack and Heap "intersect" -> stack overflow error
+JVM
+	"write once, run everywhere"
+	virtual layer present on all versions of java
+	"beauty" of Java
+Runtime environment
+	byte code and its executing the byte code
+	this is where dividing by 0 and other such errors are caught
+	non-syntax errors are hit here
+Javadocs
+	Java documentation
+	Not superflous -> telling people how to use the code
+	Won't go much into this class -> focus is on functionality
+	Still VERY important several companies ask for a lot of documentation
+Terms:
+	Computers
+		An electronic device that processes data according to a set of instructions contained in a program
+	Programs
+		A set of instructions that runs on a computer to solve a specific problem
+	Specifications
+		Usually changes often, unfortunately -> "Scope Creep"
+Comments
+	Single-Line: //example comment
+	Multi-Line:
+		/*
+			Example
+			Comment
+		*/
+	Doc Commments:
+		/**
+			Documentaion for a method
+			Allows an HTML file to be created to show other programmers what 
+			this method does
+		*/
+Scanner
+	Collects input from user
+	Parses input into specific data types
+	Use said data throughout the program
+	Scanner myScanner = new Scanner(System.in)
+Excercises 
+	Move assignment to the git
+	Finish 1 of them -> push to git
+
+		

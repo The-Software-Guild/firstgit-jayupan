@@ -1,0 +1,66 @@
+Charles Washington (Instructor)
+	Based in CST
+	Bio Breaks = breaks
+Standups
+	Beginning everyday at 10AM EST
+	Say Hi + explain how the assignments went with 
+	Likely to be phased out as we get more coding
+Overview
+	Basics this week
+	Core program will be later
+	Eventually evolve into these basic functions into more specific complex functions
+	MVC -> Model View Controller -> Model - -> View - Website -> Controller - program behind it
+	Last week -> final project Thursday before graduation -> presentation (individual or group)
+	-> standard or custom -> everyone is challenged accordingly
+	Quizzes are chill -> unlimited* uses -> makes sure you know the material
+	Github
+Git
+	Add - add files to the repo
+	Commit - creates a new save point
+	Push - makes changes to LOCAL git files
+	Pull - takes someone's code from another computer that they commited
+	Branch - your own individual file repo where the changes you make only affects that repo
+	Most teams will have a GITHUB MASTER
+	Instructor provides github repo
+	Code reviews will be done through github repo
+Java
+	We will be building java projects to meet expectations
+	Will practice different layouts/designs -> dreadfully OVER engineered 
+	Layers
+		Data Layer
+		Business Layer
+	Eventually build a site - a SITE
+Tomorrow
+	Java installed
+	Netbeans installed -> if other IDE provide a reason why you want to use it
+Java Componenets: JVM, JRE, and JDK
+	JVM - allows Java to be ran on any device
+	JRE - minimum tools needed to run java
+	JDK - not necessary to run java but necessary to WRITE java
+Languaging Principles
+	Comments -> important to have and will save your life
+	Identifiers 
+	Data Types 
+	Statements
+	Expressions
+	Most modules will have videos
+	Very solid videos borderline invaluable
+	Watching videos > reading module stuff
+Collecting Console Input - Scanner
+	Will be using scanner first couple assignments
+Flowchart
+	Understanding when to go left, go right, go in a loop...
+	Will be an assignment where we build a flowchart using draw.io 
+	parallelogram is to sure interaction with a user
+		showing user something
+		user has to input something
+	diamond shape is for decision making time
+	rectangles is to show process of code
+Truth table
+	Showing true false values for each expression during boolean operations
+	EXCLUSIVE OR = (a^b) - a and b are binarily different 
+Switch statement
+	case is the starting point
+	if no break you can hit more than one case
+	will run into case is HIT
+

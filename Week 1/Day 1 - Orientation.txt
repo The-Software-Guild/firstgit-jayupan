@@ -1,0 +1,71 @@
+Wiley (Conglomerate) -> owns mthree + software guild -> Email addresses from these employees are irrevelant
+Alumni have:
+	Dedicated academy team
+	WOrld class learning management system
+	Development of skills
+	Remote working
+	peer-to-peer -> instructor
+	opportunity to work with mthree and WIley
+	Interview skills clinics
+Jess Forbes -> Academy Experience Manager)
+	Carry out onboarding
+	Daily support
+	Works with instructors to check on trainee progress (once a week)
+Recruit Team (people who give me clients)
+	Recruit top canditates
+	Helps setup interviews
+Instructors
+	Take attendance daily
+	Cirriculum
+	Grade assignments
+	1:1 meetings (optional)
+TAs
+	Additional support
+	After hours open office hours
+	330-9PM EST for office hours
+Engagement Team
+	Once you get placed with client (working)
+	Checks in with you
+	Track performance and may provide additional coaching/training
+Curriculum
+	Learn how to Code =/= Learn how to learn to code
+	Competency based program
+	Designed to help you become more versatile at coding
+	Goal: Become a full stack programmer
+Assessments and Grades
+	Each course has modules, like checkpoints
+	Each module contains code-alongs, excercies, and forms of practice that are not graded
+	Practice/Quizzes is to help for the graded assignment at the end of each module
+	Types of Grades: 
+		Needs Improvement: Either results or methologies are insufficient
+		Meets Expectations: Submitted outstanding work
+Beyond Working Code
+	Submitted Code + Understanding = Competency
+	In every module, there is a code review where you demonstrate code and talk about concepts you learn
+	Important for tech interviews
+Desirable Difficulty
+	Clients will typically provide vague instructions
+	Questions are necessary in order to figure out the problem
+	CRITICAL SKILL
+	Things that will likely happen in this course to mimic said phenomena:
+		requirements will be vague
+		multiple solutions
+		get stuck
+		additional research
+		scrap/rewrite code
+		asked to work on tasks outside your grasp
+After Training
+	If you don't find a client you will be placed in a talent pool
+	Immediate grant access to other curriculums
+Regular mthree alumni schedule
+	TBA (instructor not present)
+Alumni Community Events
+	Used to be irl sick stuff
+	Now its zoom parties (yay)
+FAQ's
+	Are roles guaranteed?
+	What locations are the roles in?
+	How does the interview process work?
+Contact
+	Typically within a 24 hour window (more upper bound)
+	

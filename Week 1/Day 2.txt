@@ -1,0 +1,32 @@
+Objective
+	Github connected
+	JDK installed
+	Netbeans installed
+	SQL workbench later
+Github
+	"Hard drive in the sky"
+	Version/source control software
+	Saved in a decentralized location
+	Allows us to use services like AWS and Azure since they have github functionality
+	Add
+		Adds a file to the repo
+	Commit
+		Takes a snapshot of the repo - makes a save point
+		Allows you to compare and save progress
+	Pull 
+		Local copy outdated?
+		Gets the newest version available
+		Doesn't merge - needs intervention
+		Vanilla will just add files into the same folder today
+	Push
+		Puts your package onto the cloud
+		Makes your package available to everyone who has access to the repo
+	Branching
+		PUlling your own version of the code and allows you to isolate those changes
+		Typically create new functions that are not ready for the main branch (will cause errors)
+		Once done -> commmit new functions
+Posting Assignment 
+	When submitting to github, post url provided to show finality
+	Otherwise Charles will just use your latest version using timestamp due to VCS
+	
+		
