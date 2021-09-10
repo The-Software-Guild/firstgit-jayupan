@@ -1,0 +1,26 @@
+Assignments
+	Big one due wednesday
+	"HW"
+		1. paper rock scissors game using RNG and if/else statements
+		2. if statement 	
+Flowcharts
+	WIll be asked to design flowchart -> code how you described your flowchart
+	Part of the software development process
+	Shapes
+		Squares -> represents a block of code
+		Parallelograms -> outputs to user
+		Diamond -> inputs from user
+		Circle -> Start/End
+Random (Class)
+	Pseudo random
+	Uses milliseconds from machine to get its seed value
+	Constantly changes
+Methods
+	Don't repeat yourself
+	Realize when your writing the same code twice
+	If that's the case -> make a method!
+	Uses camelCase 
+Arrays
+	important for coding/code interviews
+	fixed length
+	
