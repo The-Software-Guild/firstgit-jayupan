@@ -1,0 +1,169 @@
+Finances 
+	Feyz - finance instructor for mthree/wiley
+	Types of Banks
+	Investment Banking Details
+	Understand the finanacial indstury and products
+4 branches of banks
+	Central Banks
+		US Fed Reserve
+	Retail Banks
+		General public financial products such as bank accounts/loans
+	Unviversal Banks
+		provide a wide variety of financial services tailored to retail, commercial, and investment
+		Bank of America, HSBC
+	Investment Banks
+		Specializes in large and complex financial transactions 
+		Morgan Stanley, GOldman sachs
+Banks: The Basics
+	Acts as a financial intermediator to borrows
+	Takes surplus cash from lenders
+	Deposit -> 3% paid by bank to depositor
+	Loan -> %6 charged by for the bank for a loan -> the bank retains the 3% and usually invests it
+Interest Rates
+	Interest - a fee for the use of money
+	Interest rate - the percentage
+	APR - annual percentage of rate of interst
+Properitary Trading - "prop trading"
+	When banks trade stocks with their own money and not investors
+OTD - Originate to Distribute
+	One of the core reasons of the 2008 market crash
+	Give loans to everyone who was asking and not paying attention to the credit quality
+	Eventually these loans hit critical mass -> market crash
+2008 Financial Crisis
+	Factors that led to the crisis
+		Focus on short term profits
+		Properitary interest over clients
+		Return for risk taking -> banks were playing very risky with loans/mmoney
+		Inadequate risk assessment
+		Junk debt traded in secrutities
+		Inadequate capital reserves
+	Led to
+		New regulatory bodies
+		Ring fencing
+		Effect risk assessment
+		Transparent markets
+		Stress resilient capital reserves
+		Ethics and culture
+Retail Banking
+	Canada - chartered banks
+	Overdrafts tangent - UK
+		unarranged overdraft - if you overdraft you get paid an additional fee when you overdraft
+	Mostly down online now
+Banks - Monetary policy
+	Retail banks can set their own rates for lending and borrowing money to their clients
+	Rate to lend is usually determinedby central bank (FEDS)
+	Libor: WAS benchamrk interest rate at which major global banks lend to one another in the international 			interbank market for short-term loans - going to replaced by June next year by new index
+Central Banks
+	Sets interest and inflation
+	Inflation -> the more inflated the worse the economy -> the less inflated the better the economy
+Quantative Easing (QE)
+	Central Bank creates new money electronically (QE)
+	Used to purchase government bonds
+	After the 2008 market crash -> Feds used a lot of QE to flush the market with money
+	Increases bond prices, reduces yield and frees up money
+Corporate Banking
+	For Businesses... does what retail banks due PLUS:
+	Multi-bank syndicated loans
+		Larger loans supported by multiple banks
+	Foreign exchange facilities
+	Cash management services
+		Movement of large amounts of money between accounts
+	Letters of Credit and Guarantees
+		Assurance from bank that exporter will be paid after shipping goods
+		Important for international trade
+	Lines of credit
+		"Overdraft" for businesses
+Private Banking and Wealth Magement
+	For millionaires+ typically
+	Wealth managment/structuring
+Investment Banking
+	Company restructuring
+	Mergers and acquisitions
+	Financing
+	Security issuance underwriting
+	Research and Advisory
+	Brokerage and market making
+		The actual functional jobs between buyers and sellers
+	Top 10 investors
+		JP Morgan
+		Goldman
+		BoA
+		Morgan Stanley
+		Citi
+		Barclays
+		Credit Suisse
+		Deustche
+		Wells Fargo
+Capital Markets
+	When you buy and sell in the market
+	Open out-cry trading -> electronic trading
+	Primary Market
+		New security issuance
+		New Bonds
+		New Shares
+Seconary Market
+	Brokerage
+		matches buyers and sellers
+		fees
+		broker securites dealing
+Investment Banking: Risks - Diversification
+	A risk management strategy that mixes investments within a portfolio to reduce exposure with one type of asset
+	Financial and Reputational Damage
+		Liquidity Crisis - A bankrun
+		Banks can't give their money back to their clients
+		Why can't banks give back their money?
+		How banks can fail
+			Insolvent -> guy who takes the loan disappers/doesn't pay back their loans
+			Most of the time: go down from liquidity crisis 
+				Too much money is lent over a long period 
+				Say for example 10000 is lended out over a 20 year period
+				Someone wants to withdraw but since money isn't there but being paid over time
+	Operational Risk
+		System people and process failures
+	Market Risk
+		Loss due to market volatility
+	Credit Risk
+		Defaults leading to financial loss
+			You want your credit to be paid in full
+			Banks gotta handle this when credit defaults
+Investment Banking
+	Split into front office, middle office, back office
+	Front office
+		Client-facing
+			Interact with clients; build relationships
+		Revenue Generating
+			Sell research, advice, brokerage
+	Middle Office
+		Support
+			Support front office functions
+		Validation
+	Back Office
+		Settlement
+		Custody
+		Regulatory Reporting
+		Accounting
+24 hour banking day
+	We live in a global economy
+	Us Market -> London Market -> HK Market -> Tokyo Market -> Us Market
+	^ Sun Support Model
+Front Office Trading
+Types of Assets Classes
+	Investment banks deal with these assets
+	Equities
+		If a company would be liquidated
+	Cash and Money Markets
+		Trade in short term debt
+	Commodities
+		Tradable goods
+	Fixed Income
+		Interest payments
+	Foreign Exchange
+		Trading of currencies
+	Real Estate
+		Property made up of land
+	Banks actually divide these into different departments
+	
+	
+
+	
+	

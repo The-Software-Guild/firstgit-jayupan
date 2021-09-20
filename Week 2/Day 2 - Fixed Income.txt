@@ -1,0 +1,123 @@
+Debt Products
+	A typical loan agreement is where a lender loans capital and the borrow pays back the cpaital with interest
+	Issuing a bond is a way of raising money/capital
+Short Term Debt
+	Commercial Paper
+		1 to 6 month maturity period
+		Issuer promises the cash lender a return
+		Issuecd by banks and large corps
+		Fasther than business loans
+		Unsecured
+	Us Gov Treasurery bills
+		Less than 1 year matur
+		Denomiations of $1000
+		Isussued at discount
+		Paid at par 
+Repo
+	short term funding
+	usually overnight
+	agree to borrow overnight and buy back the next
+	cash ledner receives collateral as protection overnight
+		usually goernment securities
+	Reverse repo
+		dealer borrows assets and lends money
+	Repo rates usually lower than market rates as less risk due to collateral
+Consider two loans
+	Can i borrow $100 for a week and charge interest
+	Or same thing but with collateral
+	Which would you like interest to be lower?
+	Collateral because there's a safekeep in the case of a default
+	Much more relieved credit wise
+Coupons
+	Regular interest payments on a bond
+	Typically paid semi-annualy or annualy
+	Fixed
+		FIxed rate on the coupon
+	Floating
+		Coupon is based on a floating rate such as LIBOR
+	Zero
+		No coupon - issued at a discount to par value
+Why Invest?
+	Fixed Income
+		US Bonds will ALWAYS pay back - 100% certainity
+	More Predicatable
+	Long term Investment
+	Better Rate than banks
+	Return of Capital
+	Lower Risk than Equities
+Bond Types
+	Gilts
+		UK bonds
+	T-Bills
+		US Treasury
+	Perpetual
+		No maturity date
+		Typical given out during wars
+	Converitbile
+		Having option to convert bond to equity security
+		Two ways to fund a company
+			1 - Become a shareholder (equity holder)
+			2 - Bonds
+		Convert to equity during loan if stock is higher than end amount
+		Now if there are two funds one convertible and one not
+			Coupon where it has convertible will cost more
+	Callable
+		Can be redeemed by issuer before maturity
+		When to get
+			Interest rates go down -> bond prices go up
+			kill this and call back bond
+		When to keep
+			Interest rates go up -> bond prices are up
+			Keep paying the lower rate
+	Ordinated vs subordinated
+		Subordinated has a higher yield than senior debt so lower priority in case of default
+		Subordinated
+			when a company fails -> liquidated
+			ordering -> ordinated holders than get money first 
+			if money left -> subordinated gets paid
+		Subordinated bonds are more expensive than ordinated
+Bonds and Interest Rates
+	Bonds have an inverse relationship to interest rate
+		Higher interest rate = lower bond price
+		Lower interest rate = higher bond price
+	Bond price formula not too important - you can google
+Duration measurement
+	Duration - senstivity measurement of interest rate changes on bond price
+	Bond - duration=5 years
+		Interest rates increase 1%
+			Bond price drop of approx 5%
+	Bond - duration=2 years
+		Interest rates decrease 1%
+			Bond price go up
+	Example -> Price = 90, duration = 3, interest rate decrease 1%
+		New value will be 92.7
+Yield 
+	Measurement of return on a bond, interest ofy our investment
+	Yield = coupon / price
+	As the price rises, your yield falls
+Rating Bonds
+	Government bonds of very high quality
+		AAA
+		AA
+	High Quality Corps
+		A
+		BBB
+	Non-investment grade corporates
+		BB
+		B
+	Substantial Risks/Speculative
+		CCC
+		CC
+	Ranking Associations - "Big Three"
+		Moody's
+		SMP
+		Fitch
+Municipal Bonds
+	Issued by
+		States
+		Cities
+		COunties
+		Governmental entities
+	Finance day-to-day
+	Usually interest is income tax fee
+		Typically lower than corps or governments

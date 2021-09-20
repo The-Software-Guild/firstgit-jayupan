@@ -11,6 +11,7 @@ package com.sg.assessment1;
  */
 
 import java.util.Scanner; //necessary for user input
+import java.util.Random;
 public class RockPaperScissors {
     public static void main(String [] args)
     {
@@ -19,11 +20,12 @@ public class RockPaperScissors {
         boolean rematch = false; //if true player keeps playing
         
         Scanner myScanner = new Scanner(System.in);
+        Random rng = new Random(); //for random vals
         
         do {
             System.out.println("How many rounds of RPS would you like to play? (1-10)");
             userInput = Integer.parseInt(myScanner.nextLine()); //takes input and converts
-
+            
             if(userInput < 1 || userInput > 10) //error handling for round errors
             {
                 System.out.println("ERROR: " + userInput + " is incorrect input!");
@@ -38,16 +40,16 @@ public class RockPaperScissors {
             {
                 System.out.println("Rock = 1, Paper = 2, Scissors = 3");
                 userInput = Integer.parseInt(myScanner.nextLine());
-                comInput = ((int) Math.random()) % 3 + 1;
-                if(userInput == 1 && comInput == 3)
+                comInput = rng.nextInt(3)+1;
+                if(userInput == 1 && comInput == 3) //rock > scissors
                 {
                     result = 1;
                 }
-                else if(userInput == 2 && comInput == 1)
+                else if(userInput == 2 && comInput == 1)//paper > rock
                 {
                     result = 1;
                 }
-                else if(userInput == 3 && comInput == 2)
+                else if(userInput == 3 && comInput == 2) //scissors > paper
                 {
                     result = 1;
                 }
@@ -68,29 +70,32 @@ public class RockPaperScissors {
                     result = 3;
                 }
                 System.out.println("Player chose: " + userInput + ", Computer chose: " + comInput);
-                if(result == 1)
-                {
-                    userWins++;
-                    System.out.println("Player won round " + i + ".");
-                }
-                if(result == 2)
-                {
-                    comWins++;
-                    System.out.println("Computer won round " + i + ".");
-                }
-                if(result == 3)
-                {
-                    ties++;
-                    System.out.println("It is a tie for round " + i + "!");
+                switch (result) {   //choses winner time
+                    case 1:
+                        userWins++;
+                        System.out.println("Player won round " + i + ".");
+                        break;
+                    case 2:
+                        comWins++;
+                        System.out.println("Computer won round " + i + ".");
+                        break;
+                    case 3:
+                        ties++;
+                        System.out.println("It is a tie for round " + i + "!");
+                        break;
+                    default:
+                        break;
                 }
 
             }
+            
+            //displays results
             System.out.println("Player wins: " + userWins + ".");
             System.out.println("Computer wins: " + comWins + ".");
             System.out.println("Ties: " + ties + ".");
 
             System.out.println("AND THE WINNER IS...");
-            if(userWins > comWins)
+            if(userWins > comWins) //declares winner if there is one
             {
                 System.out.println("THE PLAYER!");
             }
@@ -99,14 +104,14 @@ public class RockPaperScissors {
                 System.out.println("THE COMPUTER!");
             }
             else System.out.println("IT'S A TIE!");
-            System.out.println("Would you like to play again?");
+            System.out.println("Would you like to play again?"); //prompts user for another 
             System.out.println("1 = yes, 2 = no");
             userInput = Integer.parseInt(myScanner.nextLine());
             if(userInput == 1)
             {
-             rematch = true;   
+                rematch = true;   
             }
         }
-        while (!rematch);
+        while (rematch); //loops if user opts for it
     }
 }

@@ -1,0 +1,7 @@
+MVC - Model View Controller
+	Control is the brains
+	Model hold the data/databases
+		Model can be interchangeable
+		DB -> File
+		Code would still work if done properly
+	View has the user interface

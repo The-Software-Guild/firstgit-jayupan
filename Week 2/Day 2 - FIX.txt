@@ -1,0 +1,41 @@
+FIX
+	Financial Information eXchange
+	Fix Message Example: 8=FIX4.2|9=0132...(more#'s)
+	Industry standard messaging language
+	Supports pre-trade,trade, and post-trade messaging
+	Used by financial insts. to communicate with one another
+	Platform independent: works on a variety of different systems
+	Open free protocol can be used by anybody
+	Flexible and customizable
+Fix Messages
+	3 parts:
+		Header: contains admin language, who sent it to whom, time
+		Body: contains the actual financial information, fields, shares, prices
+		Trailer: one field sent in here, checksum, to ensure message integrity
+	Two types
+		Session level - negotiating a connection (login, logoff, resend)
+		Application messages - financial messages (trading offers)
+FIX session-layer messages
+	Logon (35=A)
+	Heartbeats(35=0)...
+Fix Message Body
+Fix Message Trailer
+	Checksum is the sum of all the binary values in the message
+	If checksum isn't this value we check to make sure integrity is incorrect
+Message Type Code
+	Tag 35
+	Tag Code:
+		A = Logon
+		B = News
+		C = Email
+		D = New Order Single
+		E = New Order List
+		...
+	Ultimately most are rare
+	You can always look it up
+FIX execution reports
+	Confirm the receipt of an order
+	Cofirm changes to an existing order
+		Relay order status
+		Reject orders
+		Relay fill

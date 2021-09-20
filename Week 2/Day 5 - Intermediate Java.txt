@@ -1,0 +1,23 @@
+Intermediate Java
+	Demonstrate the use of the service layer in the application
+	Perform Unit testing using the JUnit Framework
+	Incorporate enums
+		"Magic Numbers" - enums fight this
+	Use of the Java DateTime API
+	BigDecimal 
+		Ability to use precision math
+		There is imprecision in base java arithmetic 
+		Some math theory - 1 =? 0.9999999
+	Lambdas, streams, and aggregate functions
+		Help to process collection
+Service Layer
+	For Business logic
+		FIguring out tax and shipping to an order
+		Credit Card number and shipping address handling
+Stateful vs STateless
+	Code that has no state vs code that does
+	No state
+		Acts like a mathmatical function - if you put the smae input it will alwyas produce the same result
+	State
+		The results of the particular method call, even with identical inputs might be different depending on what happened previously
+	 

@@ -1,0 +1,32 @@
+Treasury
+	Copntrols and manages the bank's own money
+	Operates in a global environment full of market volatilithy and ever-increasing regulation
+	Manages funding, capital management, and liquidity for the bank
+	Capital Management
+		Treasury has responsibility for structuring bank funds to ensure returns are maximized whilem meeting regulatry standards
+		Global banks will tkae positions in multiple currencies to effectively fund transactions due to the variety of curriences dealt with
+Treasury Stakeholders
+	Due to the nature of the business, there are many stakeholders...
+	Internal
+		Finance
+			manages transactions
+		Trading Desks
+			Implication of the trading on the bank's capital
+		Risk
+			Development of stress testing models
+		Technology
+			Manage data caulculation and metrics
+	External
+		Investors
+			Advertise the company
+		Regulators
+			Deal with regulations
+Interbank Lending
+	Banks loan assets to each other for a specificied period, usually short term, often overnight
+	Interest is calculated using the interbank rate
+	The interbank rate is driven by the vailability of money in the market: more lenders = lower rates, fewer lenders = high rates
+	Interbank rates include: ICE LIBOR, EURIBOR, US Dollar LIBOR
+	Banksh ave credit ratings which also impact the rate
+	LIBOR
+		London Interbank OFfered Rate
+		A Bench rate for currency borrowing

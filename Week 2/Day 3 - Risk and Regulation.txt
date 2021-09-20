@@ -1,0 +1,89 @@
+Main Regulators
+	USA
+		The FED
+		SEC
+		CFTC
+	Canada
+		BoC
+		OSFI
+	UK
+		BoE
+		FCA
+		PRA
+		(FCA + PRA work in tandem)
+	Europe
+		ECB
+		EBA
+		ESMA
+	Hong Kong
+		SFC
+		HKMA
+Regulator Objectives
+	SEC
+		Protects investors
+		Maintain fair, orderly, and efficient markets
+		Facilitate capital formulation
+	FED
+		Maxdimize employment
+		Keep prices stable by maintaining a 2% target inflation
+		Maintain long term interest rates
+	FCA
+		Protect consumers
+		Protect financial markets
+		Promote competition
+	BoE
+		Maintain monetary and fiscal stability
+		Keep prices stable by maintaining a 2% target inflation
+		Support economic and growth employments
+	Rules in place:
+		Transaction reporting
+		Ring Fencing
+		Stress testing
+		risk management
+		capital requirements
+		IB separation
+		Transparency
+		Prop trading
+		Market Abuse
+		Investor Protection
+		OTC derivatives reform
+		Electronic trading
+Layers 
+	Regulation can be applied at multiple levels
+	All rules need to be complied with
+	Industry < Natkional < Economic Area < Global
+Risk Metrics: Value at Risk
+	VaR: used to measure market exposure assessing what could be lost in the worst case
+	Assessing the VaR considers the following:
+		Time period holding asset
+		Confidence level in the asset
+		Loss amount
+Financial statements
+	Helps the company make purchasing or corporate decisions
+	Helps investors evalulate the value of a company
+	Helps regulators audit the company to ensure they are complying with regulations
+Asset Depreciation
+	Depreciating assets include machinery, buildings, computers, vehicles, furniture, equipment, and fixtures
+	Cost of a depreciating asset is divided across some statements for the life of the products in question
+	Why important?
+		...
+Company Share Metrics
+	Earnings per share (EPS)
+		EPS = (net income - dividend payout)/outstanding shares
+		Earnings per share is the portion of the company's profits allocated to each oustanding share
+	Price to Earnings Ratio (P/E)
+		PE = current share price/earnings per share
+		A high P/E usually represents investors are expecting higher future earnings growth
+		A low P/E usually means a company is outperforming or is undveralued
+Basel Committee 
+Capital Adequacy
+	The minimum capital rserves a capital must have available to be available to asorb losses
+Basel 1
+	Basel Capital Accord (Basel 1) required a minimum of 8% ratio of capital to risk weighted assets
+	5 Risk Capital Weights:
+		0% Risk: Cash, central bank reserves, government debt
+		10% Risk: public sector debt
+		20%: Public sector debt
+		50%: Residential mortgages
+		100% Risk: private sector debt, real estate equipment, capital instruments
+	Risk Assets Rate = capital / total risk weighted assets

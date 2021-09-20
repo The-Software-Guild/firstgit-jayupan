@@ -1,0 +1,192 @@
+Private Company -> Public Company
+	Private Company
+		Company operates privately
+		COmpany equity divided between shareholders
+	IPO (initial public offering)
+		First sale of shares to the public
+		Trade on stock exchange
+		New rules/regulations
+	Public Company
+		Company shares traded pubicly
+		Company equity divided between NEW shareholders
+Equity SEcuirites - Market Cap
+	Outstanding shares X stock price = market cap
+	Oustanding shares
+		Shares issued by a public company and are freely available to be bought by anyone
+	Restricted Stock	
+		Shares that can only be traded under SEC reg
+Dividends
+	Distrubtion of a portion of a company's erarnings - decided by the board of directors
+	Typically paid twice a year
+	Investors invest in equities for two main reasons:
+	1. The capital value - share price
+	2. The dividend value - income
+	Why pay dividends?
+		If a company has 1000 shares outstanding and a share price of $2 - the market cap is $2000
+Share Classes
+	Ordinary Shares
+		TYpically called common stock
+		Stock Exchange stocks
+		Gets paid 2nd after preferred shares
+	Preference Shares
+	Deferred ordinary
+	Non-voting ordinary
+Share Classes : Google
+	Class A: GOOGL
+		Held by investors -> one vote per share
+	Class C: GOOG
+		Held by employees
+		No voting rights
+	3rd shares held by founders
+		10 Times the voting power of class A
+	Firmly written in the articles of founding of the company
+Snapchat IPO Case Study
+	Not profitable at first but most tech companies don't start profitable anyways
+Stock Exchanges
+	Stock exchanges are electronic marketplaces for trading of shares
+	Listed in one domestic exchange only
+	Companies pay a listing fee plus annnual fees
+	NYSE -> physical exchange, auction market
+	Nasdaq -> totally electronic, greater daily traded share volume
+		Happens to be the place for technology stocks
+Fundamentals of trading
+	Buy low, sell high
+	Bull market - optimism 
+	Bear Market - pessimissim
+Why Invest?
+	Reulgar Income
+	Capital Growth
+	Long Term Investment
+	High Liquidity
+	Transparent Marketplace
+	Ownership Voting Rights
+Market Participants
+	Speculators - Day Traders, Hedge Funds, High Frequency Traders (HFT)
+		Buy Low Sell High specialists
+	Investors
+		Long term capital growth
+		In for the long haul for greater growth
+		Collect dividends as well
+	Market Makers
+		Provide liquidity
+Market Index
+	Hypothetical portfolio of investment holdings which represents a segment of the financial market
+	ETF Funds
+		COllection of securites awhich are bundled into a single financial proudct and traded just like stocks
+		Trade bundles/packages
+		Recent decade development
+	Example Indexes
+		NDQ
+		NDXE
+		MID
+		OMxS30
+		DRG
+Market Crashes (in order)
+	Wall Street Crash
+		Dow Jones Index went 89% down
+		Took 25 years for Dow Jones to fully recover
+		Made even worse by foreign bonds
+		25% of american workforce lost their jobs
+		Feds how to introduce regulations
+	Black Monday
+		22% lost in investments
+		Lasted for more than a year
+	Tech Bubble
+		Tech companies failing and many went out of business
+		Nasdaq multiplied in size by 5 in 5 years (1995-2000)
+		Nasdaq didn't have a profit making model
+		Nasdaq fell by 77% model
+	Global Financial Crash
+		Considered the bigget downturn since great depression
+		US Housing Market went boom to bust
+		Mortgage companies had investors who were unable to pay
+		Major banks went out of business
+	Flash Crash
+		Lasted 36 minutes
+		Dow Jones went into free fall for 12 minutes
+		Reason:
+			London trader made many trades in a small frame of time
+		87% recovered end of day
+	Greek Debt Crisis
+		Eurocentric 
+		Greek gov fiscal policies led to this
+	Coronavirus
+		33% down index wise
+		Came back very strong
+		Going up right now
+Circuit Breakers
+	Put in place to reduce curb panic selling during crashers
+	For indices:
+		Level 1 %7 drop
+		Level 2 13% drop
+		Level 3 20% drop
+	Level 1 and 2 - trading is halted for 15 minutes
+Day in the Lift of Trading
+	Traditional markets like NYSE
+	Opening Auction
+		Opens as early as 7:30 AM EST
+		Ref price is yesterday's closing price
+		Market on Open ordering
+	Continuous Trading
+		Opens at 9:30 AM
+	Closing Auction
+		Important since it sets new ref for tomorrows trading
+Order Types
+	Market
+		Execute order regardless of price
+	On Open
+		Execute order on open
+	Hidden Limit
+		A limit order where price/volume not displayed
+	IOC
+		Execute part or all of the order ELSE cancel
+	Limit
+		Execute order at a specific price
+	On Close
+		Execute order closing
+	Min Execution Size
+		Hidden order that execute when minimum volume is met
+	FOK
+		Fill or Kill -> execute full order or not at all
+Orderbook
+	Shows live wwhat orders in a stock are octive on an exchange
+Short and Lost Positions
+	Long 
+		Taking a long positions
+		Buying shares with the expectation they will increase in value
+		Wishing for an investment to succeed
+	Short
+		Short selling/taking a short position
+		Selling a stock you don't own
+		GAMESTOP
+Basis Points and Ticks
+	Terms typically used on trading floor
+	Basis Points
+		Often referred to as BIPS
+		1 BIP is 1/100 of a % point
+	Stock Ticks
+		A tick si the smallest change in price valid for that stock
+Algorthmic Trading
+	ALlows you to create a program using an algorithm using price, timing, and volume variables
+	Common Strategies
+		VWAP - Volume Weighted Average Price
+		TWAP
+Dark Pools
+	A private exchange or forum for trading where the orderbook is not visible
+	It costs money to trade on an exchange
+	Dark pools allows trading with NO fees
+	Banks have access to other companies' dark pools
+Smart Order Routing
+	an algo decided it wants to trade a certain amount of shares
+		Order goes through a smart order router
+		Gives the best price for the stock at the time
+HFT
+	Automated trading platform done at very high speeds
+Market Making
+	A lot of banks have market-making desk
+	Market makers trade principally 
+	Primary goal is to profit on the bid-ask spread
+	Aims to keep the financial markets liquid
+	
+
+	

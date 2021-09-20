@@ -1,0 +1,24 @@
+Object
+	Can be broken down into state, behavior, and identity
+		State - how all the variables/attr are at a certain time
+			what's true about this class rn?
+Types
+	Everything (objects) are types
+This Keyword
+	Considered lazy back in the day
+	Now important
+Some data structure stuff
+	Heaps (data structures)
+	Stack	
+		Last in, first out
+		last element to go on is taken out
+	Queue
+		First in, first out
+		First element to go in is first to be taken out
+Inheritance
+	work environment 
+	has workers
+	functionally: 
+Interface
+	Class must delcare that it implements a given interview
+	CLass must provide implementations of the methods defined in the interface

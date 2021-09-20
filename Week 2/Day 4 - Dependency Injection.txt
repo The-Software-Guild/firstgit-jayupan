@@ -1,0 +1,5 @@
+Dependency Injection
+	Concept that an object should NOT be reponsible for directly instantiating the implementation of any of its member fields that might have more than one implementation
+	In example, ClassRosterController should NOT be responsible for directly instantiating a new ClassRosterDaoFile...
+Should we use it all the time?
+	Sometimes, it's too much over-engineering

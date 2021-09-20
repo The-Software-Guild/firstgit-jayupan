@@ -1,0 +1,90 @@
+Intro
+	Investing has become more complication with the creation of derivatives
+	Been around for generations eg. contract to sell goods/livestock on a particular date at a particularp rice
+	Derivatives have numerous uses while incurring various levels of risk
+		Risk reduction
+		Extremely useful
+Derivatives Securities
+	A contract whose value is based on the assets underlying the contract
+	Traditinoaolly the most complex of financial instruments
+	Used for hedging or speculation
+	Assets - Derivative security
+		Commodidties - future/option
+		Bonds - Credit derivatives
+		Mortages/Loans - ABS
+		FX Rate - FX Swap
+		Interest Rate - IR Swap
+	There are books about each of the derivative security
+Terms
+	Counterparties - the party takes the other side of the trade
+	Strike Price - the price which the derivative can be excercised
+	Forward - agree to buy or sell something at a specific point of time in the future for a specific price
+	Future - a forward that is traded on an exchange
+	Swap - an exchange of two things
+	Options - THe right to buy or sell security on an agreed future date
+Forwards
+	Not for making profits per se - moreso to ENSURE that the seller is guaranteed a certain sell amount and that the buyer gets their product at a certain price
+	Privately done and terms are negotiable
+	Price is established at the inception of the contract
+	Higher risk than futures because theres no intermediary - one party can refuse to pay - credit risk
+	Mainly used for hedging
+Future
+	Contract that commits to selling or purchasing a specific armound of assets, at a specific price, at a particular point in the future
+	Traded on exchange
+	Standard sizes/maturity dates
+	Profits/losses settled each day
+	Traded on exchanges such as CME, Euronext, London Metal Exchange, ICE Futures Europe, Eurex
+	Most exchanges clear their own trades and act as central counterparty
+	Often bought by speculators betting on the price of commodity or underlying asset rising or falling
+Options
+	Contract with the ability to back out of a future
+	Influenced by asset's market price, length of contract, volatility of the asset, supply and demand, divdiend rate...
+	Give you the right but not the obligation to buy or sell
+	Buyer buys at premium for the rights granted
+	Put option - allows holder to sell the asset at a stated price within a specific timeframe
+	Call option - allows holder to buy the asset at a stated price within a specific timeframe
+Interest Rate Swaps (IRS)
+	A contract to exchange a series of cash flows at a specific point in the future based on a specific principal amount
+	LIBOR is 5% and the contract is 1 million GBP
+		Bob thinks LIBOR goes down to 4.5%
+			Bob pays less and receives more
+	Zero sum game. There is always a winner and a loser.
+	Swap Legs - the cash flows exchanged in an intereste rate swap
+		Can be fixed or floating
+			Fixed - pays a seies of payments at the outset of the contract
+			Floating - linked to the future level of interest rates
+			Vanilla swap - a floating interest rate is exchanged for a fixed rate or vice versa
+Credit Derivatives
+	Credit Default Swap (CDS): a contract to insure the credit risk of an underlying bond for an agreed fee over an agreed amount of time
+Swaptions
+	A Swap option
+	A contract for the option to enter into a swap agreement at a specific prace, at a particular point in the future
+	Payer Swaption - purchaser has the right to enter into a swap contract where they become the fixed rate payer and teh floating rate receiver
+	Receiver Swaption - purchaser has the right ot enter into a swap contract where they become the floating rate payer and receive the rixed rate
+	These are Over the Counter - need to be agreed by the buyer and seller
+	Commercial banks are the main market makers in swaptions due to the unstandardized nature - can monitor a portfolio of swaptions
+Mortgage-Backed Securities
+	MBS: investimatment similar to a bond made up of a bunder of home loands bought from the banks that issued them
+	Investors receive periodic payments similar to bond coupon payments
+	Investors are purchasing the cash flow from the underlying mortgages
+	Leaves you opoen to the risks of repayment defaults such as:
+		Falling house prices
+		Job Loss
+		Imprisonment
+		Mental illnes
+		Bankruptcy
+		Falling interest rates
+Asset Backed Securities
+	A security taht collaterized by a group of assets
+	Originate Loan - credit card, home equity, student, automotive
+	Loan Originators - sell to an SPV (special purpose vehicle
+		orphan company created to spread risks in underlying assets to reallocating across investors
+	SPV - provides "remoteness" for athe loan originator. The SPV will not issue the securities.
+		Sells to a trust
+	Trust - repackages the loans as interst bearing securities
+	Ready for Sale - investors receive cashflows from the underlying pool of loans
+CDOs - Collateralized Debt Obligations
+	These are complex types of asset backed securities with either mortgage-backed assets, non-mortgage-backed assets or a combinination of both. Assets become collateral if a loan defaults.
+	Tranches
+		Senior - contain assets with a higher credit rating and first in line when there's a defalt
+		Junior - contain assets with a lower credit rating and may not get paid back during a default

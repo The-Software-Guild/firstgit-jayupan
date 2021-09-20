@@ -1,0 +1,57 @@
+Limitations of Basel 1
+	Broad risk weights are a blunt tool: are all residential mortgages 50% ?
+Basel 3
+	2010
+	Capital Buffers
+		Requires banks to hold more capital of higher quality
+	Leverage Ratio
+		A minimum leverage ratio to ensure banks are not over-leveraged
+	Liquid Coverage Ratio
+		Requires banks to have sufficient liquid assets to withstand a 30-day stressed funding scendario
+	Net Stable Funding Ratio
+		Long-term structural ratio designed to incentivize banks to use stable sources of funding
+MiFID 1
+	Markets in Financial Instruments Directive 
+	Applicable to banks across Europe since 2007 primarily focused on equities
+	Aim to facilitate cross-border trading with EU
+	Covers:
+		Business conduct for investment firms
+		Authorization requirements for regulated markets
+		Regulatory reporting requirements to prevent market abuse
+		Trade transparency obligations to share
+ESMA
+	European Securities and Markets Authority
+	Founded in 2009 (after 2008 recession)
+MiFiD 2
+	2018
+	Needed more changes
+	More ambitious to Basel 2
+	OTF - a new trading platform tocapture unregulated trades on non-regulated platforms
+	Increased transparency, pre and post trade
+	New commodity derivative position limits to reduce speculative trading
+	New rules for algorithmic and high frequency trading
+	Increased product
+Clearing and Counterparty Credit Risk
+	In every trade, both parties of the trade are at risk of the other party defaulting on the obligation of the trade - Counterparty Credit Risk
+	Central Counterparty Clearing has been introduced to try to reduce this risk
+	Once a trade has been agreed, the CCP will sit between the two parties of the trade and acts as a trade guarantor
+FATCA
+	Foreign Account Tax Complaince Act
+	2010
+	Promote cross-border ax compliance
+	Foreign financial institutions are big burdens to this 
+		Banks are given the choice to report foreign desposits
+		Depends on the bank's business policies
+Dodd-Frank Act
+	2010
+	Established agencies to oversee banks and related financial agencies
+	Financial Stability Oversight Council (FSOC)
+		Monitors the stability of companies "too big to fail"
+	Federal Insurance Office
+		Monitors insurancies "too big to fail"
+	Consumer Financial Protection Bureau (CFPB) 
+		Aims to prevent financial harm to consumers via abusive financial practices
+	SEC Office of Credit Ratings
+		Monitors ratings agencies with the aim to improve accuracy
+	Swap Executino Facilities (SEFs)
+		Exchange platforms for transparent trading and processing of swap securities

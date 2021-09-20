@@ -1,0 +1,20 @@
+Traded in various size Lots
+	Micro lot - 1000 units of your currency
+	Mini lot - 10000 units of your currency
+	Standard - 100000 units
+	Currency trading is done in pairs
+		Buy one currency and sell another
+		Really only 19 currency pairs
+	Spot market
+		Where financial markets such as commodities, currencies, and securities are traded for immediate delivery
+	FX spot traders settle on a T+2 basis, except for USD/CDA which is done in 1 day
+How hard is it?
+	You are making a decision based on the value of a whole company
+FX trading venues
+	Done across an electronic network rather htan having a physical locationh
+	Exs: HotSpot, CurrenEx, FXall, BrokerTec, Deutsche Bank, Morgan Stanley, BAML
+FX Swap
+	a contract to exchange a matching amount of two different curriences with different value dates - spot vs forward rate
+Currency Swap
+	a contract to exchange fixed interest rate payments on a principal amount for floating rate payments
+	usualy done to procurel oans in foreign currency at a more favorable interest rate that borrowing from the market
