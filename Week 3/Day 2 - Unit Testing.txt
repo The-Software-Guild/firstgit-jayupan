@@ -1,0 +1,20 @@
+Unit Testing Overview
+	Software Developers are in charge of unit testing
+	Sometimes there are whole teams dedicated to JUST testing
+Black Box vs Glass Box Testing
+	Black box tests the functionality of a partcular component without knowing anything about the component
+	Glass box takes the knowledge of the component into account
+Stateful vs Stateless Testing
+	Stateless
+		Math.sqrt is stateless
+			Sqrt of 100 is ALWAYS 10
+		Math.pi is always 3.14...
+	Stateful
+		Everything else
+		Adding two of the same student to the same database
+Test stubs
+	We can test inside a class by makign test stubs 
+JUnit
+	De facto automated unit test framework for java
+	Asserts
+		Static helper methods that allow you to test differente conditions in your test

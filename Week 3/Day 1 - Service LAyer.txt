@@ -1,0 +1,17 @@
+Service Layer
+	Live between controller and DAO (persistence layer)
+	Makes sure that the data player "plays by the rules"
+		These rules are implied, typically not written
+		Service layer is where this is written
+	Business logic vs. Programming logic
+New Business Rules
+	1. The app should not allow the user to create a student with an ID that already exists in the system
+	2. The app should not allow the user to create a student with empty values
+	3. The app should record an entry to an audit log every time a Student object is added/removed from system
+Test Driven Development
+	Goals
+		Describe the process
+		Trace the process of Red/green/refractor
+		Explain the usage of test stubs
+		Use JUnit 
+	

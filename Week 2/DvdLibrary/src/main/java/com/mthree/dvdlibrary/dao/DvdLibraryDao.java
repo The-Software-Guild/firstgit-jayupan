@@ -59,11 +59,12 @@ public interface DvdLibraryDao {
      * Returns the DVD object that is being edited or null if
      * there is no DVD associated with the given id
      * 
+     * #param dvdId string val of id to be edited
      * @param dvd edited dvd to be replaced in the library
      * @return Dvd object that was edited or null if no DVD
      * was associated with the given DVD id
      */
-    Dvd editDvd(Dvd dvd) throws DvdLibraryDaoException;
+    Dvd editDvd(String dvdId, Dvd dvd) throws DvdLibraryDaoException;
     
 
 }

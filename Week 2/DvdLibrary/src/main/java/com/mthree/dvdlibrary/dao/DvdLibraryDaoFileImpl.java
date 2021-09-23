@@ -61,10 +61,10 @@ public class DvdLibraryDaoFileImpl implements DvdLibraryDao{
     }
     
     @Override
-    public Dvd editDvd(Dvd dvd) throws DvdLibraryDaoException
+    public Dvd editDvd(String dvdId, Dvd dvd) throws DvdLibraryDaoException
     {
         loadLibrary();
-        Dvd editedDvd = Dvds.replace(dvd.getId(), dvd);
+        Dvd editedDvd = Dvds.replace(dvdId, dvd);
         writeLibrary();
         return editedDvd;
     }

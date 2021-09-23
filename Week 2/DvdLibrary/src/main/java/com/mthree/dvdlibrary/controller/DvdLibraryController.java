@@ -95,7 +95,7 @@ public class DvdLibraryController {
         List<Dvd> dvdList = dao.getAllDvds();
         String dvdId = view.getDvdIdChoice();
         Dvd editedDvd = view.getEditDvdInfo(dvdList, dvdId);
-        dao.editDvd(editedDvd);
+        dao.editDvd(dvdId, editedDvd);
         view.displayEditResult(editedDvd);
     }
     
@@ -119,7 +119,6 @@ public class DvdLibraryController {
         view.displayDisplayDvdTitleBanner();
         List<Dvd> dvdList = dao.getAllDvds();
         String dvdId = view.getDvdTitleChoice(dvdList);
-        System.out.println(dvdId);
         Dvd dvd = dao.getDvd(dvdId);
         view.displayDvd(dvd);
     }
