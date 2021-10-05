@@ -8,6 +8,7 @@ package com.mthree.vendingmachine.ui;
 import com.mthree.vendingmachine.dto.Change;
 import com.mthree.vendingmachine.dto.Item;
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.List;
 /**
  *
@@ -15,16 +16,14 @@ import java.util.List;
  */
 public class VendingMachineView {
     private UserIO io;
-    private BigDecimal funds = new BigDecimal("5.00");
     
     public VendingMachineView(UserIO io)
     {
         this.io = io;
     }
+  
     
-
-    public int printMenuAndGetSelection(List<Item> itemList) {
-        io.print("Main Menu");
+    public int printMenuAndGetSelection(List<Item> itemList, BigDecimal funds) {
         int count = 1;
         for (Item currentItem : itemList) {
             String itemInfo = String.format("%s. %s: $%s, %s left",
@@ -36,42 +35,42 @@ public class VendingMachineView {
             count++;
         }
         
-        io.print(count + ". Add funds. Current funds: " + funds);
+        io.print(count + ". Add funds. Current funds: $" + funds.toString());
         count++;
         io.print(count + ". Exit");
         return io.readInt("Please select from the above choices.", 1, count+1);
     }
     
-    public void pay(Item item)
+    public void calculateChange(BigDecimal newFunds)
     {
         int quarters = 0;
         int dimes = 0;
         int nickels = 0;
         int pennies = 0; 
-        BigDecimal cost = new BigDecimal(item.getCost());
-        funds = funds.subtract(cost);
-        while(!funds.equals(0))
+        newFunds = newFunds.setScale(2, RoundingMode.HALF_UP);
+        while(newFunds.compareTo(BigDecimal.ZERO) > 0)
         {
-            if(funds.compareTo(Change.QUARTER.getVal()) > 0)
+            if(newFunds.compareTo(Change.QUARTER.getVal()) > 0 || newFunds.equals(Change.QUARTER.getVal()))
             {
-                funds = funds.subtract(Change.QUARTER.getVal());
+                newFunds = newFunds.subtract(Change.QUARTER.getVal());
                 quarters++;
             }
-            else if(funds.compareTo(Change.DIME.getVal()) > 0)
+            else if(newFunds.compareTo(Change.DIME.getVal()) > 0 || newFunds.equals(Change.DIME.getVal()))
             {
-                funds = funds.subtract(Change.DIME.getVal());
+                newFunds = newFunds.subtract(Change.DIME.getVal());
                 dimes++;
             }
-            else if(funds.compareTo(Change.NICKEL.getVal()) > 0)
+            else if(newFunds.compareTo(Change.NICKEL.getVal()) > 0 || newFunds.equals(Change.NICKEL.getVal()))
             {
-                funds = funds.subtract(Change.DIME.getVal());
+                newFunds = newFunds.subtract(Change.NICKEL.getVal());
                 nickels++;
             }
             else //pennies
             {
-                funds = funds.subtract(Change.PENNY.getVal());
+                newFunds = newFunds.subtract(Change.PENNY.getVal());
                 pennies++;
             }
+            newFunds = newFunds.setScale(2, RoundingMode.HALF_UP );
         }
         io.print("Quarters: " + quarters);
         io.print("Dimes: " + dimes);
@@ -79,9 +78,25 @@ public class VendingMachineView {
         io.print("Pennies: " + pennies);
     }
     
+    public BigDecimal promptFunds()
+    {
+        return new BigDecimal(io.readDouble("Add funds amount.")).setScale(2, RoundingMode.HALF_UP);
+    }
+    
     public void displayBuyItemBanner (String itemName)
     {
         io.print("=== Buying " + itemName + " ===");
+    }
+    
+    public void displayAddFundsBanner()
+    {
+        io.print("=== Adding Funds ===");
+    }
+    
+    public void displayAddFundsSuccessBanner()
+    {
+        io.readString(
+            "Funds successfully added.  Please hit enter to continue");
     }
     
     public void displayExitBanner() 
@@ -97,5 +112,6 @@ public class VendingMachineView {
         io.print("=== ERROR ===");
         io.print(errorMsg);
     }
+    
     
 }

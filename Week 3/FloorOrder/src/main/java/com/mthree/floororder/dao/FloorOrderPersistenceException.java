@@ -3,20 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mthree.vendingmachine.dao;
+package com.mthree.floororder.dao;
 
 /**
  *
  * @author Josef
  */
-public class VendingMachineDaoException extends Exception{
-    
-    public VendingMachineDaoException(String message)
+public class FloorOrderPersistenceException extends Exception{
+    public FloorOrderPersistenceException(String message)
     {
         super(message);
     }
     
-    public VendingMachineDaoException(String message, Throwable cause)
+    public FloorOrderPersistenceException(String message, Throwable cause)
     {
         super(message);
     }

@@ -1,0 +1,7 @@
+Spring Bootcamp
+	Add it to your XML file in project folder
+	Need DAO file before Service Layer
+	App class now easier!
+		ApplicationContext file is read
+		Controller can be created using AppContext
+		Then run controller

@@ -6,16 +6,17 @@
 package com.mthree.vendingmachine.dto;
 
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 
 /**
  *
  * @author Josef
  */
 public enum Change {
-    PENNY (new BigDecimal(0.01)),
-    NICKEL (new BigDecimal(0.05)), 
-    DIME (new BigDecimal(0.10)), 
-    QUARTER (new BigDecimal(0.25));
+    PENNY (new BigDecimal(0.01).setScale(2, RoundingMode.HALF_UP)),
+    NICKEL (new BigDecimal(0.05).setScale(2, RoundingMode.HALF_UP)), 
+    DIME (new BigDecimal(0.10).setScale(2, RoundingMode.HALF_UP)), 
+    QUARTER (new BigDecimal(0.25).setScale(2, RoundingMode.HALF_UP));
     
     private BigDecimal val;
     

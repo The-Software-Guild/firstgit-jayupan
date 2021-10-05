@@ -6,11 +6,17 @@
 package com.mthree.vendingmachine;
 
 import com.mthree.vendingmachine.controller.VendingMachineController;
+import com.mthree.vendingmachine.dao.VendingMachineAuditDao;
+import com.mthree.vendingmachine.dao.VendingMachineAuditDaoImpl;
 import com.mthree.vendingmachine.dao.VendingMachineDao;
 import com.mthree.vendingmachine.dao.VendingMachineDaoFileImpl;
+import com.mthree.vendingmachine.service.VendingMachineServiceLayer;
+import com.mthree.vendingmachine.service.VendingMachineServiceLayerImpl;
 import com.mthree.vendingmachine.ui.UserIO;
 import com.mthree.vendingmachine.ui.UserIOConsoleImpl;
 import com.mthree.vendingmachine.ui.VendingMachineView;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
  *
@@ -19,11 +25,8 @@ import com.mthree.vendingmachine.ui.VendingMachineView;
 public class App {
     public static void main(String[] args)
     {
-    UserIO myIo = new UserIOConsoleImpl();
-        VendingMachineView myView = new VendingMachineView(myIo);
-        VendingMachineDao myDao = new VendingMachineDaoFileImpl();
-        VendingMachineController controller =
-            new VendingMachineController(myDao, myView);
+        ApplicationContext appContext = new ClassPathXmlApplicationContext("classpath:applicationContext.xml");
+        VendingMachineController controller = appContext.getBean("controller", VendingMachineController.class);
         controller.run();
     }
 }

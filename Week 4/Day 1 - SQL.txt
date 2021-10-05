@@ -1,0 +1,28 @@
+Easy to draw database design on piece of paper -> digitalize
+
+CodeAlong:
+
+(If text is *bold* you don't have to make it NOT NULL)
+
+DROP DATABASE vinylrecordshop;
+
+DROP DATABASE IF EXISTS vinylrecordshop;
+
+CREATE DATABASE vinylrecordshop;
+USE vinylrecordshop;
+
+CREATE TABLE album (
+	albumId INT AUTO_INCREMENT,
+	albumTitle VARCHAR(100) NOT NULL,
+	label VARCHAR(50),
+	releaseDate DATE,
+	price DECIMAL(5,2),
+	CONSTRRAINT pk_album
+		PRIMARY KEY (albumId)
+);
+
+CREATE TABLE artist (
+	artistId INT AUTO_INCREMENT,
+	artistFirstNAme VARCHAR(25),
+	artistLastName VARCHAR(50) NOT NULL
+)

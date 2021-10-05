@@ -5,12 +5,16 @@
  */
 package com.mthree.vendingmachine.controller;
 
-import com.mthree.vendingmachine.dao.VendingMachineDao;
-import com.mthree.vendingmachine.dao.VendingMachineDaoException;
+import com.mthree.vendingmachine.dao.VendingMachinePersistenceException;
 import com.mthree.vendingmachine.dto.Item;
+import com.mthree.vendingmachine.service.InsufficientFundsException;
+import com.mthree.vendingmachine.service.NoItemInventoryException;
+import com.mthree.vendingmachine.service.VendingMachineDataValidationException;
+import com.mthree.vendingmachine.service.VendingMachineServiceLayer;
 import com.mthree.vendingmachine.ui.UserIO;
 import com.mthree.vendingmachine.ui.UserIOConsoleImpl;
 import com.mthree.vendingmachine.ui.VendingMachineView;
+import java.math.BigDecimal;
 import java.util.List;
 
 /**
@@ -21,11 +25,11 @@ public class VendingMachineController {
         
     private UserIO io = new UserIOConsoleImpl();
     private VendingMachineView view;
-    private VendingMachineDao dao;
+    private VendingMachineServiceLayer service;
     
-    public VendingMachineController(VendingMachineDao dao, VendingMachineView view) 
+    public VendingMachineController(VendingMachineServiceLayer service, VendingMachineView view) 
     {
-        this.dao = dao;
+        this.service = service;
         this.view = view;
     }
     
@@ -36,37 +40,49 @@ public class VendingMachineController {
         while(keepGoing)
         {
             try {
-                menuSelection = view.printMenuAndGetSelection(dao.getAllItems());
-                if(menuSelection > 0 && menuSelection <= dao.getAllItems().size()) //all item options
+                menuSelection = view.printMenuAndGetSelection(service.getAllItems(), service.getFunds());
+                if(menuSelection > 0 && menuSelection <= service.getAllItems().size()) //all item options
                 {
                     buyItem(menuSelection);
                 }
-                else if(menuSelection == dao.getAllItems().size()+1) //add change
+                else if(menuSelection == service.getAllItems().size()+1) //add change
                 {
-                    io.print("Changing change");
+                    addFunds();
                 }
-                else if(menuSelection == dao.getAllItems().size()+2) //exit
+                else if(menuSelection == service.getAllItems().size()+2) //exit
                 {
                     keepGoing = false;
                 }
                 else unknownCommand();
             
             }
-            catch (VendingMachineDaoException e)
+            catch (VendingMachinePersistenceException|VendingMachineDataValidationException|NoItemInventoryException|InsufficientFundsException e)
             {
-                
+                view.displayErrorMessage(e.getMessage());
             }
         }
         exitMessage();
     }
     
-    private void buyItem(int choice) throws VendingMachineDaoException
+    private void buyItem(int choice) throws VendingMachinePersistenceException,
+            VendingMachineDataValidationException,
+            NoItemInventoryException,
+            InsufficientFundsException
     {
-        List<Item> itemList = dao.getAllItems();
+        List<Item> itemList = service.getAllItems();
         Item item = itemList.get(choice-1);
         view.displayBuyItemBanner(item.getName());
-        Item editedItem = dao.editItem(item.getId(), item);
-        //view.pay(item);
+            BigDecimal funds = service.pay(item);
+            service.editItem(item.getId(), item);
+            view.calculateChange(funds);
+    }
+    
+    private void addFunds() throws VendingMachinePersistenceException
+    {
+        view.displayAddFundsBanner();
+        BigDecimal newFunds = view.promptFunds();
+        service.addFunds(newFunds);
+        view.displayAddFundsSuccessBanner();
     }
     
     private void unknownCommand() {

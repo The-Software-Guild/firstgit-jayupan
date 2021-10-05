@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mthree.vendingmachine.ui;
+package com.mthree.floororder.ui;
 
 import java.util.Scanner;
 
@@ -42,6 +42,27 @@ public class UserIOConsoleImpl implements UserIO {
         return console.nextLine();
     }
 
+    /**
+     *
+     * A simple method that takes in a message to display on the console, 
+     * and then waits for an answer from the user to return.
+     * 
+     * If message.equals(""), we do nothing
+     *
+     * @param msgPrompt - String explaining what information you want from the user.
+     * @return the answer to the message as string or the object if it's ""
+     */
+    @Override
+    public String readStringEdit(String msgPrompt, String val) {
+        System.out.println(msgPrompt);
+        String result = console.nextLine();
+        if(result.equals(""))
+        {
+            return val;
+        }
+        else return result;
+    }
+    
     /**
      *
      * A simple method that takes in a message to display on the console, 
